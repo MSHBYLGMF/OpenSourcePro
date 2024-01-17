@@ -3,8 +3,8 @@ from .import views
 
 
 urlpatterns=[
-    path('',views.home,name='home'),
-    path('list_items/',views.Stocklist,name='stocklist'),
+    path('vvvvv',views.home,name='home'),
+    path('',views.Stocklist,name='stocklist'),
     path('add_items/', views.add_items, name='add_items'),
     path('update_items/<int:id>/', views.update_items, name="update_items"),
     path('stock_detail/<int:id>/', views.stock_detail, name="stock_detail"),
