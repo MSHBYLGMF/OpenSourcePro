@@ -12,7 +12,7 @@ urlpatterns=[
     path('issue_items/<int:id>/', views.issue_items, name="issue_items"),
     path('receive_items/<int:id>/', views.receive_items, name="receive_items"),
     path('reorder_level/<int:id>/', views.reorder_level, name="reorder_level"),
-    path('accounts/', include('registration.backends.default.urls')),
+    # path('accounts/', include('registration.backends.default.urls')),
 
 
 ]
